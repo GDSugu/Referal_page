@@ -1,0 +1,159 @@
+@import './scss/variables';
+
+@mixin heading(){
+    align-items: end;
+    padding: 18px;
+}
+
+@media screen and (max-width: 800px) {
+    .header,.card_style,.headleft,.headright,.c2_img2,.c2_img3,.c2_content,.c3_content,.c4_content{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+  .c3_content,.c2_content,.c4_content{
+    text-align: justify;
+  }
+
+
+
+.head{
+    background-color:$bc; 
+}
+
+.header{
+    
+    position: fixed;
+}
+
+
+
+.pop{
+    position: static;
+    max-width: fit-content;
+    height: fit-content;
+    width: 200px;
+}
+
+
+.login{
+    color: rgb(76, 185, 76);
+    align-content: end;
+    
+}
+.signup{
+    background-color:rgb(76, 185, 76);
+    align-content: end;
+}
+
+
+
+.c1_right{
+    
+    align-content: center;
+    align-items: center;
+    padding: 80px;
+    margin-top: 30px;
+    
+   }
+
+   .c1_left{
+    padding: 80px;
+    margin-top: 30px;
+   }
+.nav-link{
+    color: green;
+}
+   
+
+   .c1_heading{
+    color: green;
+   }
+
+   .c2_heading,.c3_heading{
+    text-align: center;
+    padding: 40px;
+    color: $heading_color
+   }
+
+   .c2{
+    background-color:beige;
+   }
+
+   .c2_img2,.c2_img3{
+    margin-left: 200px;
+    padding: 10px;
+    align-items: center;
+    
+    
+   }
+
+   .c2_right{
+    margin-left: 50px;
+    padding: 50px;
+    text-align: justify;
+   }
+
+   .c2_button{
+    // margin-left: 600px;
+    text-align: center;
+    
+   }
+   
+   .c3_heading2{
+    text-align: center;
+   }
+   
+   .card_group{
+    padding: 20px;
+   }
+
+   .card_style{
+    padding: 20px;
+    margin:30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+   
+   }
+
+  .card_ref{
+    text-align: left;
+    font-size:small;
+  }
+
+   .card_btn{
+    
+    text-align:right;
+    align-content: flex-end;
+    
+   
+   }
+
+   .bottom{
+    text-align: center;
+    color: $heading_color;
+    background-color:beige
+   }
+
+   .faq_ans{
+    text-align: left;
+   }
+
+   .footer{
+    padding: 70px;
+    text-align: center;
+    background-color:rgb(1, 46, 1);
+    color: white;
+    
+   }
+
+  
+  // .faq_que{
+  //   text-align: center;
+  //   padding: 50px;
+  //   margin-left: 100px;
+  //   margin-right: 100px;
+  // }
+  
+
+  

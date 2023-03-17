@@ -1,0 +1,104 @@
+.head {
+  background-color: whitesmoke;
+}
+
+.headleft {
+  align-items: end;
+  padding: 18px;
+}
+
+.headright {
+  align-items: end;
+  padding: 18px;
+  margin-left: 900px;
+}
+
+.login {
+  color: rgb(76, 185, 76);
+  margin-left: 200px;
+  margin-top: 15px;
+}
+
+.c1_right {
+  align-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.c1_left {
+  padding: 60px;
+}
+
+.nav-link {
+  color: green;
+}
+
+.c1_heading {
+  color: green;
+}
+
+.c2_heading, .c3_heading {
+  text-align: center;
+  padding: 40px;
+  color: rgb(32, 160, 32);
+}
+
+.c2 {
+  background-color: beige;
+}
+
+.c2_img2, .c2_img3 {
+  margin-left: 200px;
+  padding: 10px;
+  align-items: center;
+}
+
+.c2_right {
+  margin-left: 50px;
+  padding: 50px;
+  text-align: justify;
+}
+
+.c2_button {
+  margin-left: 600px;
+  align-items: center;
+  align-content: center;
+}
+
+.c3_heading2 {
+  text-align: center;
+}
+
+.card_group {
+  padding: 20px;
+}
+
+.card_style {
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+}
+
+.card_ref {
+  text-align: left;
+  font-size: small;
+}
+
+.card_btn {
+  text-align: right;
+  align-content: flex-end;
+}
+
+.bottom {
+  text-align: center;
+  color: rgb(32, 160, 32);
+  background-color: beige;
+}
+
+.footer {
+  padding: 70px;
+  text-align: center;
+  background-color: rgb(1, 46, 1);
+  color: white;
+}/*# sourceMappingURL=cards.css.map */
